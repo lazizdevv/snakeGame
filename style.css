@@ -1,0 +1,98 @@
+*{
+    color: white;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #232323;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.container{
+    border: 5px solid green;
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 400px;
+    width: 80%;
+    height: 90vh;
+}
+
+.game-area {
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    height: 300px;
+    border: 5px solid red;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.snake, .apple {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.controls {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+.ver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.controls button {
+    width: 100px;
+    height: 50px;
+    border-radius: 25%;
+    background-color: green;
+}
+
+.controls > div {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+}
+
+#start, #restart{
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#start{background-color: goldenrod;}
+
+#restart{background-color: red;}
+
+.snake {background-color: goldenrod;}
+
+.apple {background-color: green;}
+
+.score, #score{font-size: xx-large;}
