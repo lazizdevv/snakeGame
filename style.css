@@ -27,7 +27,7 @@ button{
     border-radius: 25px;
     max-width: 350px;
     width: 80%;
-    height: 80%;
+    /* height: 90%; */
 }
 
 .game-area {
